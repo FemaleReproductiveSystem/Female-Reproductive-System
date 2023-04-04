@@ -1,0 +1,72 @@
+html {
+    background: linear-gradient(to left,#EA98A8 50%, #f9dbea 50%);
+}
+
+@font-face {
+    font-family: "Le Petit Cochon";
+    src: url("/font/Petit\ Cochon.ttf") format("truetype"); 
+}
+
+* {
+    font-family: "Rubik", sans-serif;
+    border-radius: 10px;
+    color: white;
+}
+
+.container {
+    font-size: 16px;
+    width: 90vw;
+    background-color: #cf5784;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    padding: 5px 10px;
+    transform: translate(-50%, -50%);
+    max-width: 37.5em;
+    overflow: auto;
+}
+
+.container h3 {
+    font-family: "Le Petit Cochon", sans-serif;
+    justify-content: center;
+    color: white;
+    font-weight: 100;
+    font-size: 40px;
+    display: flex;
+}
+
+.btnOpen {
+    background-color: transparent;
+    border: 1px solid #f9dbea;
+    position: relative;
+    font-size: 20px;
+    top: -40px;
+}
+
+.subTit {
+    font-weight: 100;
+    color: white;
+    margin-top: -10px;
+    font-size: 20px;
+}
+
+.names {
+    list-style-type: none;
+    display: flex;
+}
+
+.container::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background-color: #de6c87;
+    border-radius: 5px;
+}
+
+.container::-webkit-scrollbar-track {
+    background-color: white;
+    border-radius: 5px;
+}
+
