@@ -70,3 +70,8 @@ html {
     border-radius: 5px;
 }
 
+@media (max-width: 500px) {
+    .names {
+        flex-direction: column;
+    }
+}
